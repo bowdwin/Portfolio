@@ -1,0 +1,91 @@
+h1 {
+    color:white;
+    /* margin-left: 3px;
+    margin-right: 3px; */
+    
+    padding: 0px;
+    margin-top: 10px;
+    font-family: "Oswald", Helvetica;
+}
+
+html {
+  min-height: 100vh;
+}
+
+body{
+  margin: 0;
+  background: radial-gradient(#6eb4ee, #9198e5);
+}
+  p1 {
+      color: white;
+      font-size: large;
+      margin-bottom: 20px;
+  }
+  h2 {
+    padding-top: 20px;
+    /* color:white;
+    margin-left: 3px;
+    margin-right: 3px;
+    font-family: comic sans-serif;
+    text-align: center;
+    padding-bottom: 15px; */
+  }
+
+  .bgcolorgreen{
+  background-color: rgb(50, 65, 71);
+  border: solid 1px lightslategray;
+  }
+   */
+  .navbar {
+    margin-top: 0px !important;
+    padding: 0px !important;
+    border-right-color: white;
+  }
+  
+  .borderOutline {
+    border-color: white;
+    border-width: 1px;
+  }
+
+  @media (max-width: 768px) {
+    .navbar-nav {
+      /* (80px - line-height of 27px) / 2 = 26.5px */
+      padding-top: 26.5px;
+      padding-bottom: 26.5px;
+      line-height: 27px;
+      text-align: center;
+    }
+  }
+  /* .navbar-padding {
+    padding: 10px 15px 10px 15px;
+  } */ 
+.align-list {
+ 
+}
+.portfolio-header {
+  color: white;
+  padding-left: 20px;
+
+
+  margin-left: 30px;
+  margin-right: 30px;
+  /* background-color: lightgray; */
+
+}
+
+.container1  {
+  margin-top: 0px !important;
+  padding: 0px !important;
+  border-right-color: white;
+}
+
+.h2classaboutme {
+  color: black;
+}
+
+.navcontainerlist {
+
+  border-left: solid rgb(50, 65, 71) 3px;
+  padding-right: 10px;
+  padding-left: 10px
+}
