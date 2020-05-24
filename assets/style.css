@@ -1,3 +1,19 @@
+@font-face {
+  font-family: "robo-italic";
+  src: url(./fonts/Roboto-BlackItalic.ttf);
+}
+@font-face {
+  font-family: "robo-bold";
+  src: url(./fonts/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: "robo-medium";
+  src: url(./fonts/Roboto-Medium.ttf);
+}
+.nav-header{
+  font-family: robo-italic;
+}
+
 h1 {
     color:white;
     /* margin-left: 3px;
@@ -5,16 +21,24 @@ h1 {
     
     padding: 0px;
     margin-top: 10px;
-    font-family: "Oswald", Helvetica;
+    /* font-family: "Oswald", Helvetica; */
 }
-
+.nav-list {
+  color: white;
+  font-family: robo-bold;
+}
 html {
   min-height: 100vh;
 }
-
+.card-body {
+  padding: 2px;
+  font-family: robo-thin;
+}
 body{
+  color: white;
+ 
   margin: 0;
-  background: radial-gradient(#6eb4ee, #9198e5);
+  background: radial-gradient(#6eb4ee, #2e3dc5);
 }
   p1 {
       color: white;
@@ -23,19 +47,9 @@ body{
   }
   h2 {
     padding-top: 20px;
-    /* color:white;
-    margin-left: 3px;
-    margin-right: 3px;
-    font-family: comic sans-serif;
-    text-align: center;
-    padding-bottom: 15px; */
+
   }
 
-  .bgcolorgreen{
-  background-color: rgb(50, 65, 71);
-  border: solid 1px lightslategray;
-  }
-   */
   .navbar {
     margin-top: 0px !important;
     padding: 0px !important;
@@ -74,9 +88,9 @@ body{
 }
 
 .container1  {
-  margin-top: 0px !important;
+  /* margin-top: 100px !important;
   padding: 0px !important;
-  border-right-color: white;
+  border-right-color: white; */
 }
 
 .h2classaboutme {
