@@ -54,6 +54,24 @@ html {
 .card-body-bottomnav{
   background: radial-gradient(#413f44, #101011);
 }
+.form-style{
+  background: radial-gradient(#413f44, #101011);
+}
+.form-control{
+  background: radial-gradient(#413f44, #101011);
+}
+.form-inp-style{
+  background-color: #413f44;
+}
+.contact-form{
+  padding: 25px;
+  color: white;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.contact-input{
+  color: white;
+}
 .card{
   margin: 5px;
 }
@@ -78,12 +96,22 @@ body{
   .about-card {
     background: radial-gradient(#413f44, #101011);
     color: rgb(192, 190, 190);
+    margin-top: 25px;
   }
 
   .navbar {
     margin-top: 0px !important;
     padding: 0px !important;
     border-right-color: white;
+    background: radial-gradient(#413f44, #101011);
+  }
+  .page-title{
+    /* border-bottom-style: dotted 2px; */
+    border-bottom: white 2px dotted;
+    color:  white;
+    font-family: robo-bold;
+    margin-left: 0;
+    margin-right: 0;
   }
   
   .borderOutline {
@@ -103,12 +131,10 @@ body{
   /* .navbar-padding {
     padding: 10px 15px 10px 15px;
   } */ 
-.align-list {
- 
-}
+
 .portfolio-header {
   color: white;
-  padding-left: 20px;
+  padding-left: 10px;
 
 
   margin-left: 30px;
