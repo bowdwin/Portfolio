@@ -11,8 +11,8 @@
   src: url(./fonts/OpenSans-BoldItalic.ttf);
 }
 @font-face {
-  font-family: "sans-bold";
-  src: url(./fonts/OpenSans-Bold.ttf);
+  font-family: "robotic-bold";
+  src: url(./fonts/OpenSans-Regular.ttf);
 }
 .nav-header{
   font-family: robo-italic;
@@ -59,18 +59,25 @@ html {
 }
 body{
   color: white;
- 
+  font-family: sans-bold;
   margin: 0;
   background: radial-gradient(#6eb4ee, #2e3dc5);
 }
   p1 {
-      color: white;
+      color: rgb(165, 163, 163);
       font-size: large;
       margin-bottom: 20px;
   }
   h2 {
     padding-top: 20px;
 
+  }
+  .about-image{
+    width: 50%;
+  }
+  .about-card {
+    background: radial-gradient(#413f44, #101011);
+    color: rgb(192, 190, 190);
   }
 
   .navbar {
