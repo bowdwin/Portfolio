@@ -107,11 +107,15 @@ body{
   }
   .page-title{
     /* border-bottom-style: dotted 2px; */
-    border-bottom: white 2px dotted;
+    border-bottom: white 2px solid;
     color:  white;
     font-family: robo-bold;
     margin-left: 0;
     margin-right: 0;
+  }
+  .portcontainer-style{
+  /* to possibly use later */
+     /* background: radial-gradient(#413f44, #101011); */
   }
   
   .borderOutline {
