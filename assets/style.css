@@ -14,12 +14,10 @@
   font-family: "robotic-bold";
   src: url(./fonts/OpenSans-Regular.ttf);
 }
-.nav-header{
-  font-family: robo-italic;
-}
+
 
 h1 {
-    color:white;
+    color:#d1e8e2;
     /* margin-left: 3px;
     margin-right: 3px; */
     
@@ -28,12 +26,13 @@ h1 {
     /* font-family: "Oswald", Helvetica; */
 }
 .nav-list {
-  color: white;
+  color:   #d1e8e2;
   font-family: robo-bold;
 }
 html {
   min-height: 100vh;
 }
+
 .card-body {
   padding: 2px;
   font-family: sans-bold;
@@ -65,21 +64,43 @@ html {
 }
 .contact-form{
   padding: 25px;
-  color: white;
+  color:   #d1e8e2;
   margin-left: 60px;
   margin-right: 60px;
 }
 .contact-input{
-  color: white;
+  color:   #d1e8e2
 }
 .card{
   margin: 5px;
 }
 body{
-  color: white;
+  color:   #d1e8e2;
   font-family: sans-bold;
   margin: 0;
-  background: radial-gradient(#6eb4ee, #2e3dc5);
+  /* background: radial-gradient(#2c3531, #116466); */
+  /* background: radial-gradient(#9cc7eb, #2e3dc5); */
+  /* background: linear-gradient(to bottom right, blue, pink); */
+  /* background: linear-gradient(to bottom right, #2c3531, #d1e8e2); */
+  background: linear-gradient(to bottom, #116466 0%, #2c3531 100%);
+}
+
+.nav-header{
+  font-family: robo-italic;
+  /* color: #ffcb9a; */
+  color: #d1e8e2;
+
+}
+
+.navbar {
+  margin-top: 0px !important;
+  padding: 0px !important;
+  /* border-right-color:   #d1e8e2 */
+  /* background: radial-gradient(#413f44, #101011);
+  background: linear-gradient(to top left, blue, rgb(237, 192, 255)); */
+  /* background: linear-gradient(to bottom, #ffcb9a 0%, #116466 100%); */
+  /* background: linear-gradient(to bottom, #2c3531 0%, #116466 100%); */
+  background: radial-gradient(#413f44, #101011);
 }
   p1 {
       color: rgb(165, 163, 163);
@@ -95,21 +116,15 @@ body{
   }
   .about-card {
     background: radial-gradient(#413f44, #101011);
-    color: rgb(192, 190, 190);
+    /* color: rgb(192, 190, 190); */
     margin-top: 25px;
   }
 
-  .navbar {
-    margin-top: 0px !important;
-    padding: 0px !important;
-    border-right-color: white;
-    background: radial-gradient(#413f44, #101011);
-  }
   .page-title{
     /* border-bottom-style: dotted 2px; */
-    border-bottom: white 2px solid;
-    color:  white;
-    font-family: robo-bold;
+    border-bottom:   #101011 3px solid;
+    color: #d1e8e2;
+    font-family: robo-italic;
     margin-left: 0;
     margin-right: 0;
   }
@@ -119,7 +134,7 @@ body{
   }
   
   .borderOutline {
-    border-color: white;
+    border-color:   #d1e8e2;
     border-width: 1px;
   }
 
@@ -137,7 +152,7 @@ body{
   } */ 
 
 .portfolio-header {
-  color: white;
+
   padding-left: 10px;
 
 
@@ -150,7 +165,7 @@ body{
 .container1  {
   /* margin-top: 100px !important;
   padding: 0px !important;
-  border-right-color: white; */
+  border-right-color:   #d1e8e2 */
 }
 
 .h2classaboutme {
