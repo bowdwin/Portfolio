@@ -7,8 +7,12 @@
   src: url(./fonts/Roboto-Bold.ttf);
 }
 @font-face {
-  font-family: "robo-medium";
-  src: url(./fonts/Roboto-Medium.ttf);
+  font-family: "sans-medium";
+  src: url(./fonts/OpenSans-BoldItalic.ttf);
+}
+@font-face {
+  font-family: "sans-bold";
+  src: url(./fonts/OpenSans-Bold.ttf);
 }
 .nav-header{
   font-family: robo-italic;
@@ -32,7 +36,26 @@ html {
 }
 .card-body {
   padding: 2px;
-  font-family: robo-thin;
+  font-family: sans-bold;
+  /* background: radial-gradient(#101011, #66666d); */
+
+}
+.card-body-profplanet{
+  background: radial-gradient(#4f11a1, #101011);
+}
+.card-body-got{
+  /* background: radial-gradient(#101011, #1179a1); */
+  background: radial-gradient(#1179a1, #101011);
+}
+.card-body-ironman{
+  /* background: radial-gradient(#101011, #801e0d); */
+  background: radial-gradient(#801e0d, #101011);
+}
+.card-body-bottomnav{
+  background: radial-gradient(#413f44, #101011);
+}
+.card{
+  margin: 5px;
 }
 body{
   color: white;
