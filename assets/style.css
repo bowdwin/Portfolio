@@ -14,6 +14,26 @@
   font-family: "robotic-bold";
   src: url(./fonts/OpenSans-Regular.ttf);
 }
+@media only screen and (max-width: 601px) {
+  .nav-header{
+    font-size: 30px;
+    text-align: center;
+  }
+ 
+  .portcontainer-style{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .navcontainerlist{
+    margin-right: 6%;
+  }
+}
+@media only screen and (min-width: 602px) {
+  .navcontainerlist{
+    margin-right: 0%;
+  }
+}
+
 h1 {
     color:#d1e8e2;
     padding: 0px;
@@ -26,7 +46,6 @@ h1 {
 html {
   min-height: 100vh;
 }
-
 .card-body {
   padding: 2px;
   font-family: sans-bold;
@@ -112,14 +131,6 @@ body{
     border-width: 1px;
   }
 
-  @media (max-width: 768px) {
-    .navbar-nav {
-      padding-top: 26.5px;
-      padding-bottom: 26.5px;
-      line-height: 27px;
-      text-align: center;
-    }
-  }
 .portfolio-header {
   padding-left: 10px;
   margin-left: 30px;
@@ -134,5 +145,5 @@ body{
 
   border-left: solid #d1e8e2 3px;
   padding-right: 10px;
-  padding-left: 10px
+  padding-left: 10px;
 }

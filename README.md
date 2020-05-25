@@ -16,4 +16,4 @@ Site link https://bowdwin.github.io/Portfolio/
     * Java Script
 ## GIF shot of "Portfolio"
 
-![](images/got.gif)
+![](assets/images/portfoliogif.gif)
