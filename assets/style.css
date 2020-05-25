@@ -14,16 +14,10 @@
   font-family: "robotic-bold";
   src: url(./fonts/OpenSans-Regular.ttf);
 }
-
-
 h1 {
     color:#d1e8e2;
-    /* margin-left: 3px;
-    margin-right: 3px; */
-    
     padding: 0px;
     margin-top: 10px;
-    /* font-family: "Oswald", Helvetica; */
 }
 .nav-list {
   color:   #d1e8e2;
@@ -36,18 +30,14 @@ html {
 .card-body {
   padding: 2px;
   font-family: sans-bold;
-  /* background: radial-gradient(#101011, #66666d); */
-
 }
 .card-body-profplanet{
   background: radial-gradient(#4f11a1, #101011);
 }
 .card-body-got{
-  /* background: radial-gradient(#101011, #1179a1); */
   background: radial-gradient(#1179a1, #101011);
 }
 .card-body-ironman{
-  /* background: radial-gradient(#101011, #801e0d); */
   background: radial-gradient(#801e0d, #101011);
 }
 .card-body-bottomnav{
@@ -78,16 +68,11 @@ body{
   color:   #d1e8e2;
   font-family: sans-bold;
   margin: 0;
-  /* background: radial-gradient(#2c3531, #116466); */
-  /* background: radial-gradient(#9cc7eb, #2e3dc5); */
-  /* background: linear-gradient(to bottom right, blue, pink); */
-  /* background: linear-gradient(to bottom right, #2c3531, #d1e8e2); */
   background: linear-gradient(to bottom, #116466 0%, #2c3531 100%);
 }
 
 .nav-header{
   font-family: robo-italic;
-  /* color: #ffcb9a; */
   color: #d1e8e2;
 
 }
@@ -95,11 +80,6 @@ body{
 .navbar {
   margin-top: 0px !important;
   padding: 0px !important;
-  /* border-right-color:   #d1e8e2 */
-  /* background: radial-gradient(#413f44, #101011);
-  background: linear-gradient(to top left, blue, rgb(237, 192, 255)); */
-  /* background: linear-gradient(to bottom, #ffcb9a 0%, #116466 100%); */
-  /* background: linear-gradient(to bottom, #2c3531 0%, #116466 100%); */
   background: radial-gradient(#413f44, #101011);
 }
   p1 {
@@ -116,21 +96,15 @@ body{
   }
   .about-card {
     background: radial-gradient(#413f44, #101011);
-    /* color: rgb(192, 190, 190); */
     margin-top: 25px;
   }
 
   .page-title{
-    /* border-bottom-style: dotted 2px; */
     border-bottom:   #101011 3px solid;
     color: #d1e8e2;
     font-family: robo-italic;
     margin-left: 0;
     margin-right: 0;
-  }
-  .portcontainer-style{
-  /* to possibly use later */
-     /* background: radial-gradient(#413f44, #101011); */
   }
   
   .borderOutline {
@@ -140,32 +114,16 @@ body{
 
   @media (max-width: 768px) {
     .navbar-nav {
-      /* (80px - line-height of 27px) / 2 = 26.5px */
       padding-top: 26.5px;
       padding-bottom: 26.5px;
       line-height: 27px;
       text-align: center;
     }
   }
-  /* .navbar-padding {
-    padding: 10px 15px 10px 15px;
-  } */ 
-
 .portfolio-header {
-
   padding-left: 10px;
-
-
   margin-left: 30px;
   margin-right: 30px;
-  /* background-color: lightgray; */
-
-}
-
-.container1  {
-  /* margin-top: 100px !important;
-  padding: 0px !important;
-  border-right-color:   #d1e8e2 */
 }
 
 .h2classaboutme {
@@ -174,7 +132,7 @@ body{
 
 .navcontainerlist {
 
-  border-left: solid rgb(50, 65, 71) 3px;
+  border-left: solid #d1e8e2 3px;
   padding-right: 10px;
   padding-left: 10px
 }
