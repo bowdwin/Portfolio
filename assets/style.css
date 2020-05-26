@@ -19,14 +19,21 @@
     font-size: 30px;
     text-align: center;
   }
- 
+ .rowmedia {
+   margin-left: 0;
+   margin-right: 0;
+   padding: 0;
+
+ }
+ .portcontainer-style
   .navcontainerlist{
-    margin-right: 6%;
+    margin-right: 0;
+    margin-left: 20%;
   }
 }
 @media only screen and (min-width: 602px) {
   .navcontainerlist{
-    margin-right: 0%;
+    /* margin-right: 0%; */
   }
 }
 .cardhoover{
