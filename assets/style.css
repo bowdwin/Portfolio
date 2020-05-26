@@ -69,6 +69,16 @@ h1 {
 }
 html {
   min-height: 100vh;
+
+}
+body{
+  background-image: url("../assets/images/bg.jpg");
+  background-size: cover !important;
+  min-height: 100vh;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
 }
 .card-body {
   padding: 2px;
@@ -79,7 +89,7 @@ html {
 }
 .card-body-got{
   background: radial-gradient(#1179a1, #101011);
-  padding: 5%;
+  padding: 1%;
 }
 .card-body-ironman{
   background: radial-gradient(#801e0d, #101011);
@@ -113,7 +123,16 @@ body{
   color:#9ee0ce;
   font-family: sans-bold;
   margin: 0;
-  background: linear-gradient(to bottom, #116466 50%, #2c3531 100%);
+  /* background: linear-gradient(to bottom, #116466 50%, #2c3531 100%);
+   */
+
+   background-image: url("../assets/images/bg.jpg");
+   background-size: cover !important;
+   min-height: 100vh;
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
+   color: white;
   /* background: radial-gradient(ellipse at top, #116466, transparent),
             radial-gradient(ellipse at bottom, #2c3531, transparent) */
 /* 
@@ -174,7 +193,7 @@ body{
     border:   #9ee0ce 3px dotted;
     background: radial-gradient(#413f44, #101011);
     padding: 3%;
-    box-shadow: 0 20px 20px #9ee0ce;
+    box-shadow: 0 20px 20px #a91fd3;
   }
 
 .portfolio-header {
