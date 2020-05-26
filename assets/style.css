@@ -33,14 +33,35 @@
     margin-right: 0%;
   }
 }
-
+.cardhoover{
+  border: solid 2px #9ee0ce;
+}
+  /* https://stackoverflow.com/questions/26923336/how-to-create-card-hover-style-effect-like-google-now-cards */
+.cardhoover:hover {
+-webkit-animation: anim ease-out 0.5s 1;
+animation: anim 1.5s 2;
+transform: translateZ(100px);
+cursor: url('./images/Saturn-icon.png'), auto;
+box-sizing: content-box 10px;
+box-shadow: 0 30px 30px #9ee0ce;
+opacity: 1;
+position: relative;
+transform: scale(1.1);
+}
+ 
+.contact{
+  margin-top: 40px;
+}
+.contact-form{
+  box-shadow: 0 30px 30px #9ee0ce;
+}
 h1 {
-    color:#d1e8e2;
+    color:#aedbcf;
     padding: 0px;
     margin-top: 10px;
 }
 .nav-list {
-  color:   #d1e8e2;
+  color:   #9ee0ce;
   font-family: robo-bold;
 }
 html {
@@ -48,7 +69,6 @@ html {
 }
 .card-body {
   padding: 2px;
-  font-family: sans-bold;
 }
 .card-body-profplanet{
   background: radial-gradient(#4f11a1, #101011);
@@ -73,18 +93,18 @@ html {
 }
 .contact-form{
   padding: 25px;
-  color:   #d1e8e2;
+  color:   #9ee0ce;
   margin-left: 60px;
   margin-right: 60px;
 }
 .contact-input{
-  color:   #d1e8e2
+  color:#9ee0ce
 }
 .card{
-  margin: 5px;
+  margin: 15px;
 }
 body{
-  color:   #d1e8e2;
+  color:#9ee0ce;
   font-family: sans-bold;
   margin: 0;
   background: linear-gradient(to bottom, #116466 0%, #2c3531 100%);
@@ -92,7 +112,7 @@ body{
 
 .nav-header{
   font-family: robo-italic;
-  color: #d1e8e2;
+  color: #9ee0ce;
 
 }
 
@@ -116,19 +136,28 @@ body{
   .about-card {
     background: radial-gradient(#413f44, #101011);
     margin-top: 25px;
+    box-shadow: 0 30px 30px #9ee0ce;
   }
 
   .page-title{
-    border-bottom:   #101011 3px solid;
-    color: #d1e8e2;
+    /* border-bottom:   #101011 3px dotted; */
+    color: #9ee0ce;
     font-family: robo-italic;
     margin-left: 0;
     margin-right: 0;
+    text-align: center;
   }
   
   .borderOutline {
-    border-color:   #d1e8e2;
+    border-color:   #9ee0ce;
     border-width: 1px;
+  }
+  .portcontainer-style{
+    border:   #9ee0ce 3px dotted;
+    background: radial-gradient(#413f44, #101011);
+    padding: 20px;
+    
+
   }
 
 .portfolio-header {
@@ -143,7 +172,23 @@ body{
 
 .navcontainerlist {
 
-  border-left: solid #d1e8e2 3px;
+  border-left: solid #9ee0ce 3px;
   padding-right: 10px;
   padding-left: 10px;
 }
+.card-body-bottomnav{
+  /* background: radial-gradient(#466a6b, #101011); */
+  background: #116466;
+}
+
+.card-link {
+  color: #9ee0ce !important;
+}
+/* 
+.card-link li a:hover, ul.nav li a:active {
+  color: #9ee0ce !important;
+}
+
+.card-link li.active a {
+  color: #9ee0ce !important;
+} */
