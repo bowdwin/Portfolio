@@ -109,7 +109,7 @@ body{
 .nav-header{
   font-family: robo-italic;
   color: #9ee0ce;
-
+  text-shadow: 1px 1px 4px #9ee0ce;
 }
 
 .navbar {
@@ -138,10 +138,16 @@ body{
   .page-title{
     /* border-bottom:   #101011 3px dotted; */
     color: #9ee0ce;
-    font-family: robo-italic;
+    /* font-family: robo-italic; */
     margin-left: 0;
     margin-right: 0;
+    padding-top: 5%;
+    padding-bottom: 5% ;
+    align-self: center;
     text-align: center;
+    /* box-shadow: 0 30px 30px #9ee0ce; */
+  
+
   }
   
   .borderOutline {
