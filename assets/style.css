@@ -15,63 +15,60 @@
   src: url(./fonts/OpenSans-Regular.ttf);
 }
 @media only screen and (max-width: 601px) {
-  .nav-header{
+  .nav-header {
     font-size: 30px;
     text-align: center;
   }
- .rowmedia {
-   margin-left: 0;
-   margin-right: 0;
-   padding: 0;
-
- }
- .portcontainer-style
-  .navcontainerlist{
+  .rowmedia {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+  }
+  .portcontainer-style .navcontainerlist {
     margin-right: 0;
     margin-left: 20%;
   }
 }
 @media only screen and (min-width: 602px) {
-  .navcontainerlist{
+  .navcontainerlist {
     /* margin-right: 0%; */
   }
 }
-.cardhoover{
+.cardhoover {
   border: solid 2px #9ee0ce;
 }
-  /* https://stackoverflow.com/questions/26923336/how-to-create-card-hover-style-effect-like-google-now-cards */
+/* https://stackoverflow.com/questions/26923336/how-to-create-card-hover-style-effect-like-google-now-cards */
 .cardhoover:hover {
--webkit-animation: anim ease-out 0.5s 1;
-animation: anim 1.5s 2;
-transform: translateZ(100px);
-cursor: url('./images/Saturn-icon.png'), auto;
-box-sizing: content-box 10px;
-box-shadow: 0 30px 30px #9ee0ce;
-opacity: 1;
-position: relative;
-transform: scale(1.1);
+  -webkit-animation: anim ease-out 0.5s 1;
+  animation: anim 1.5s 2;
+  transform: translateZ(100px);
+  cursor: url("./images/Saturn-icon.png"), auto;
+  box-sizing: content-box 10px;
+  box-shadow: 0 30px 30px #9ee0ce;
+  opacity: 1;
+  position: relative;
+  transform: scale(1.1);
 }
- 
-.contact{
+
+.contact {
   margin-top: 40px;
 }
-.contact-form{
+.contact-form {
   box-shadow: 0 30px 30px #9ee0ce;
 }
 h1 {
-    color:#aedbcf;
-    padding: 0px;
-    margin-top: 10px;
+  color: #aedbcf;
+  padding: 0px;
+  margin-top: 10px;
 }
 .nav-list {
-  color:   #9ee0ce;
+  color: #9ee0ce;
   font-family: robo-bold;
 }
 html {
   min-height: 100vh;
-
 }
-body{
+body {
   background-image: url("../assets/images/bg.jpg");
   background-size: cover !important;
   min-height: 100vh;
@@ -83,65 +80,64 @@ body{
 .card-body {
   padding: 2px;
 }
-.card-body-profplanet{
+.card-body-profplanet {
   background: radial-gradient(#4f11a1, #101011);
   padding: 1%;
 }
-.card-body-got{
+.card-body-got {
   background: radial-gradient(#1179a1, #101011);
   padding: 1%;
 }
-.card-body-ironman{
+.card-body-ironman {
   background: radial-gradient(#801e0d, #101011);
   padding: 1%;
 }
-.card-body-bottomnav{
+.card-body-bottomnav {
   background: radial-gradient(#413f44, #101011);
 }
-.form-style{
+.form-style {
   background: radial-gradient(#413f44, #101011);
 }
-.form-control{
+.form-control {
   background: radial-gradient(#413f44, #101011);
 }
-.form-inp-style{
+.form-inp-style {
   background-color: #413f44;
 }
-.contact-form{
+.contact-form {
   padding: 25px;
-  color:   #9ee0ce;
+  color: #9ee0ce;
   margin-left: 60px;
   margin-right: 60px;
 }
-.contact-input{
-  color:#9ee0ce
+.contact-input {
+  color: #9ee0ce;
 }
-.card{
+.card {
   margin: 15px;
 }
-body{
-  color:#9ee0ce;
+body {
+  color: #9ee0ce;
   font-family: sans-bold;
   margin: 0;
   /* background: linear-gradient(to bottom, #116466 50%, #2c3531 100%);
    */
 
-   background-image: url("../assets/images/bg.jpg");
-   background-size: cover !important;
-   min-height: 100vh;
-   background-size: contain;
-   background-position: center;
-   background-repeat: no-repeat;
-   color: white;
+  background-image: url("../assets/images/bg.jpg");
+  background-size: cover !important;
+  min-height: 100vh;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
   /* background: radial-gradient(ellipse at top, #116466, transparent),
             radial-gradient(ellipse at bottom, #2c3531, transparent) */
-/* 
+  /* 
   background: radial-gradient(ellipse at top, #2c3531, transparent),
   radial-gradient(ellipse at bottom, #116466, transparent); */
 }
 
-
-.nav-header{
+.nav-header {
   font-family: robo-italic;
   color: #9ee0ce;
   text-shadow: 1px 1px 4px #9ee0ce;
@@ -150,51 +146,49 @@ body{
 .navbar {
   margin-top: 0px !important;
   padding: 0px !important;
-  background: radial-gradient(#413f44, #101011);
+  background: none;
+  /* background: radial-gradient(#413f44, #101011); */
 }
-  p1 {
-      color: rgb(165, 163, 163);
-      font-size: large;
-      margin-bottom: 20px;
-  }
-  h2 {
-    padding-top: 20px;
+p1 {
+  color: rgb(165, 163, 163);
+  font-size: large;
+  margin-bottom: 20px;
+}
+h2 {
+  padding-top: 20px;
+}
+.about-image {
+  width: 50%;
+}
+.about-card {
+  background: radial-gradient(#413f44, #101011);
+  margin-top: 25px;
+  box-shadow: 0 30px 30px #9ee0ce;
+}
 
-  }
-  .about-image{
-    width: 50%;
-  }
-  .about-card {
-    background: radial-gradient(#413f44, #101011);
-    margin-top: 25px;
-    box-shadow: 0 30px 30px #9ee0ce;
-  }
+.page-title {
+  /* border-bottom:   #101011 3px dotted; */
+  color: #9ee0ce;
+  /* font-family: robo-italic; */
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  align-self: center;
+  text-align: center;
+  /* box-shadow: 0 30px 30px #9ee0ce; */
+}
 
-  .page-title{
-    /* border-bottom:   #101011 3px dotted; */
-    color: #9ee0ce;
-    /* font-family: robo-italic; */
-    margin-left: 0;
-    margin-right: 0;
-    padding-top: 5%;
-    padding-bottom: 5% ;
-    align-self: center;
-    text-align: center;
-    /* box-shadow: 0 30px 30px #9ee0ce; */
-  
-
-  }
-  
-  .borderOutline {
-    border-color:   #9ee0ce;
-    border-width: 1px;
-  }
-  .portcontainer-style{
-    border:   #9ee0ce 3px dotted;
-    background: radial-gradient(#413f44, #101011);
-    padding: 3%;
-    box-shadow: 0 20px 20px #9ee0ce;
-  }
+.borderOutline {
+  border-color: #9ee0ce;
+  border-width: 1px;
+}
+.portcontainer-style {
+  border: #9ee0ce 3px dotted;
+  background: radial-gradient(#413f44, #101011);
+  padding: 3%;
+  box-shadow: 0 20px 20px #9ee0ce;
+}
 
 .portfolio-header {
   padding-left: 10px;
@@ -207,12 +201,11 @@ body{
 }
 
 .navcontainerlist {
-
   border-left: solid #9ee0ce 3px;
   padding-right: 10px;
   padding-left: 10px;
 }
-.card-body-bottomnav{
+.card-body-bottomnav {
   /* background: radial-gradient(#466a6b, #101011); */
   background: #116466;
 }
