@@ -1,3 +1,27 @@
+@media only screen and (max-width: 601px) {
+  .portcontainer-style {
+    padding-right: 25%;
+  }
+}
+@media only screen and (max-width: 321px) {
+  .title {
+    height: 80%;
+    padding-right: 25%;
+  }
+  .ip4 {
+    margin: 0;
+    padding: 0;
+  }
+}
+/* 
+@media only screen and (max-width: 601px) {
+  .responsive {
+   
+    width: 300px;
+    height: 150px;
+  }
+} */
+
 @font-face {
   font-family: 'robo-italic';
   src: url(./fonts/Roboto-BlackItalic.ttf);
@@ -190,10 +214,11 @@ h2 {
   border-width: 1px;
 }
 .portcontainer-style {
-  border: #9ee0ce 3px dotted;
-  background: radial-gradient(#413f44, #101011);
-  padding: 3%;
-  box-shadow: 0 20px 20px #9ee0ce;
+  /* border: #9ee0ce 3px dotted; */
+  /* background: radial-gradient(#413f44, #101011); */
+  /* padding: 5%; */
+  /* margin: 5%; */
+  /* box-shadow: 0 20px 20px #9ee0ce; */
 }
 
 .portfolio-header {
