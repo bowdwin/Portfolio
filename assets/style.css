@@ -1,17 +1,17 @@
 @font-face {
-  font-family: "robo-italic";
+  font-family: 'robo-italic';
   src: url(./fonts/Roboto-BlackItalic.ttf);
 }
 @font-face {
-  font-family: "robo-bold";
+  font-family: 'robo-bold';
   src: url(./fonts/Roboto-Bold.ttf);
 }
 @font-face {
-  font-family: "sans-medium";
+  font-family: 'sans-medium';
   src: url(./fonts/OpenSans-BoldItalic.ttf);
 }
 @font-face {
-  font-family: "robotic-bold";
+  font-family: 'robotic-bold';
   src: url(./fonts/OpenSans-Regular.ttf);
 }
 @media only screen and (max-width: 601px) {
@@ -42,7 +42,7 @@
   -webkit-animation: anim ease-out 0.5s 1;
   animation: anim 1.5s 2;
   transform: translateZ(100px);
-  cursor: url("./images/Saturn-icon.png"), auto;
+  cursor: url('./images/Saturn-icon.png'), auto;
   box-sizing: content-box 10px;
   box-shadow: 0 30px 30px #9ee0ce;
   opacity: 1;
@@ -69,7 +69,7 @@ html {
   min-height: 100vh;
 }
 body {
-  background-image: url("../assets/images/bg.jpg");
+  background-image: url('../assets/images/bg.jpg');
   background-size: cover !important;
   min-height: 100vh;
   background-size: contain;
@@ -91,6 +91,12 @@ body {
 .card-body-ironman {
   background: radial-gradient(#801e0d, #101011);
   padding: 1%;
+}
+.card-body-portspickup {
+  background: radial-gradient(orange, #101011);
+}
+.card-body-burger {
+  background: radial-gradient(grey, #101011);
 }
 .card-body-bottomnav {
   background: radial-gradient(#413f44, #101011);
@@ -123,7 +129,7 @@ body {
   /* background: linear-gradient(to bottom, #116466 50%, #2c3531 100%);
    */
 
-  background-image: url("../assets/images/bg.jpg");
+  background-image: url('../assets/images/bg.jpg');
   background-size: cover !important;
   min-height: 100vh;
   background-size: contain;
